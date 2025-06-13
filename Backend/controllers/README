@@ -1,0 +1,9 @@
+change the index.js 
+
+app.listen(PORT, () => {
+  console.log(`App is running on Port ${PORT}`);
+});
+to this (present in last of the file) 
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`App is running on Port ${PORT}`);
+});
